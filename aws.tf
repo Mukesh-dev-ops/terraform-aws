@@ -1,9 +1,9 @@
 provider "aws"{
-  access_key=""
-  secret_access_key=""
+  access_key="AKIA52TKJW62MY2H7OWG"
+  secret_access_key="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"
   region="us-east-2"
 }
 resource "aws_instance" "webserver"{
- ami="ami-"
+ ami="ami-074cce78125f09d61"
  instance_type="t2.micro"
 }
